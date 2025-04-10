@@ -3,6 +3,6 @@ public class Main {
        WeatherData weatherData = new WeatherData();
        CurrentConditionDisplay currentConditionDisplay = new CurrentConditionDisplay(weatherData);
        weatherData.setMeasurement(25, 50, 730);
-        System.out.println(" ");
+       System.out.println(" ");
     }
 }
